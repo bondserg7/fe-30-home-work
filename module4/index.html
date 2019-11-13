@@ -5,46 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>module4</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Roboto:400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto:300,400,900&display=swap" rel="stylesheet">
+    </head>
+
 <body>
     <header class="header">
-        <nav class="navigation">
+        <nav class="navigation-conteiner">
             <a class="logotype" href="#">
                 <img class="logotype_img" src="./img/logotype.png" alt="logotype" width="78" height="21">
             </a>
-            <ul class="nav-menu">
-                <li class="nav-menu-item">
-                    <a class="nav-menu-link" href="#">home</a>
+            <ul class="site-navigation clearfix">
+                <li class="header-list-item">
+                    <a class="header-list-link" href="#">home</a>
                 </li>
-                <li class="nav-menu-item">
-                    <a class="nav-menu-link" href="#">about us</a>
+                <li class="header-list-item">
+                    <a class="header-list-link" href="#">about us</a>
                 </li>
-                <li class="nav-menu-item">
-                    <a class="nav-menu-link" href="#">page</a>
+                <li class="header-list-item">
+                    <a class="header-list-link" href="#">page</a>
                 </li>
-                <li class="nav-menu-item">
-                    <a class="nav-menu-link" href="#">shop</a>
+                <li class="header-list-item">
+                    <a class="header-list-link" href="#">shop</a>
                 </li>
-                <li class="nav-menu-item">
-                    <a class="nav-menu-link" href="#">blog</a>
+                <li class="header-list-item">
+                    <a class="header-list-link" href="#">blog</a>
                 </li>
-                <li class="nav-menu-item">
-                    <a class="nav-menu-link" href="#">contact us</a>
+                <li class="header-list-item">
+                    <a class="header-list-link" href="#">contact us</a>
                 </li>
-             </ul>
+            </ul>
         </nav>
-        <h1 class="header-title">feutured products</h1>
-    </header>
-
-    <main class="container">
-        <section class="card">
-            <img class="card-img" src="./img/" alt="" width="78" height="21">
-
-
+    <h1 class="header-title">feutured products</h1>
+    <div class="line"></div>
+</header>
+    <main>
+        <section class="products">
+            <div class="product-card">
+                <ul class="product-list clearfix">
+                    <li class="product-list-item">
+                        <img class="card-img" src="./img/product1.png" alt="синий туфель" width="255" height="322">
+                        <button class="product-item-button clearfix">
+                            <span class="span-name">blue tshirt</span>
+                            <span class="span-money">26$</span></button>
+                    </li>
+                    <li class="product-list-item ">
+                        <img class="card-img" src="./img/product2.png" alt="черная сумка" width="255" height="322">
+                        <button class="product-item-button ">
+                            <span class="span-name">blue tshirt</span>
+                            <span class="span-money">26$</span></button>
+                    </li>
+                    <li class="product-list-item">
+                        <img class="card-img" src="./img/product3.png" alt="ремень коричневый" width="255" height="322">
+                        <button class="product-item-button ">
+                            <span class="span-name">women shirt</span>
+                            <span class="span-money">31$</span></button>
+                    </li>
+                    <li class="product-list-item">
+                        <img class="card-img" src="./img/product4.png" alt="ремень чёрный" width="255" height="322">
+                        <button class="product-item-button span">
+                            <span class="span-name">women shirt</span>
+                            <span class="span-money">31$</span></button>
+                    </li>
+                    <li class="product-list-item">
+                        <img class="card-img" src="./img/product5.png" alt="шляпа" width="255" height="322">
+                        <button class="product-item-button span">
+                            <span class="span-name">yellow tshirt</span>
+                            <span class="span-money">21$</span></button>
+                    </li>
+                    <li class="product-list-item">
+                        <img class="card-img" src="./img/product6.png" alt="туфли" width="255" height="322">
+                        <button class="product-item-button span">
+                            <span class="span-name">yellow tshirt</span>
+                            <span class="span-money">21$</span></button>
+                    </li>
+                    <li class="product-list-item">
+                        <img class="card-img" src="./img/product7.png" alt="синяя сумка" width="255" height="322">
+                        <button class="product-item-button span">
+                            <span class="span-name">cool lingerie</span>
+                            <span class="span-money">56$</span></button>
+                    </li>
+                    <li class="product-list-item">
+                        <img class="card-img" src="./img/product8.png" alt="очки" width="255" height="322">
+                        <button class="product-item-button span">
+                            <span class="span-name">cool lingerie</span>
+                            <span class="span-money">56$</span></button>
+                    </li>
+                </ul>
+            </div>
         </section>
+        <h2 class="main-subtitle">latest news</h2>
+        <div class="line-news"></div>
 
+        <section class= "products">
+            <div class="card-news">
+                <ul class="news-list clearfix">
+                    <li class="news-link-item">
+                        <img class="ccard-img-news" src="./img/slide9.png" alt="планшет" width="350" height="262">
+                        <p class="news-list-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Consequatur fuga molestias expedita iure similique sapiente?</p>
+                        <div class="line-fotter"></div>
+                        <p class="news-list-position"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Porro, accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Porro, accusantium?</p>
+                        <button class="news-button">read more</button>
+                    </li>
+                    <li class="news-link-item">
+                        <img class="card-img-news" src="./img/slide10.png" alt="девушки" width="347" height="261">
+                        <p class="news-list-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Consequatur fuga molestias expedita iure similique sapiente?</p>
+                        <div class="line-fotter"></div>
+                        <p class="news-list-position"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Provident, sapiente?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Porro, accusantium?</p>
+                        <button class="news-button">read more</button>
+                    </li>
+                    <li class="news-link-item">
+                        <img class="card-img-news" src="./img/slide11.png" alt="автобус" width="347" height="261">
+                        <p class="news-list-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Consequatur fuga molestias expedita iure similique sapiente?</p>
+                        <div class="line-fotter"></div>
+                        <p class="news-list-position"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Provident, sapiente?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Porro, accusantium?</p>
+                        <button class="news-button">read more</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
-    
 </body>
 </html>
