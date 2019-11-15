@@ -35,9 +35,12 @@ margin-left: 30px;
 text-transform: uppercase;
 font-family: 'Open Sans', sans-serif;
 font-weight: bold;
+color: #0f0101;
+
 }
 a {
 text-decoration: none;
+color: #0f0101;
 }
 a:hover {
 color: #1abc9c;
@@ -49,13 +52,17 @@ color: #1abc9c;
     font-size: 48px;
     color: #515151;
 }
-.line {
+    .header-title::after {
+    display: block;
+    content: "";
+    background-color: #1abc9c;
     width: 160px;
     height: 8px;
-    background-color:  #1abc9c;
     margin: 0 auto;
     margin-top: 32px;
+    margin-bottom: 92px;
 }
+
 
     /*roducts*/
 
@@ -69,7 +76,6 @@ color: #1abc9c;
     height: 323px;
     float: left;
     margin-right: 30px;
-    margin-top: 93px;
     list-style-type: none;
 }
 .product-list-item:nth-child(4n) {
@@ -121,24 +127,30 @@ color: #1abc9c;
     color: #515151;
     margin-top: 105px;
     }
-    .line-news {
+
+.main-subtitle::after {
+    display: block;
+    content: "";
     width: 160px;
     height: 8px;
     background-color:  #4ec6ab;
     margin: 0 auto;
     margin-top: 32px;
+    margin-bottom: 80px;
+    
     }
     .news-list {
+      width: 1100px;
       float: left;
-      margin-top: 80px; 
       list-style-type: none;
       text-align: left;
     }
     .news-link-item {
+    display: block;
     float: left;
     width: 365px;
     height: 500px;
-    padding-left: 30px;
+    
     }
     .card-img {
         display: block;

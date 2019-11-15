@@ -10,12 +10,6 @@ html {
   padding: 0;
 }
 
-img {
-  display: block;
-  min-width: 100%;
-  height: auto;
-}
-
 body {
   font-family: "Playfair Display", "Arial", serif;
   font-size: 14px;
