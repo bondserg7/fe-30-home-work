@@ -92,8 +92,6 @@ color: #1abc9c;
     transform: translateX(-50%);
     left: 50%;
     top: 225px;
-
-
 }
 
 .arrow-left {
@@ -101,7 +99,7 @@ color: #1abc9c;
     height: 104px;
     background-color: rgba(26, 188, 156, 0.65);
     border: none;
-        float: left;
+    float: left;
 }
 
 .arrow-right {
@@ -110,8 +108,6 @@ color: #1abc9c;
     background-color: #1abc9c;
     border: none;
     float: right;
-    
-    
 }
 
 .new-collection {
@@ -121,7 +117,7 @@ color: #1abc9c;
     text-transform: uppercase;
     padding-top: 100px;
     margin-bottom: 31px;
-    }
+}
 .new-collection::after {
     display: block;
     content: "";
@@ -132,52 +128,77 @@ color: #1abc9c;
     margin-top: 32px;
     margin-bottom: 80px;
 }
-
-
 .new {
     min-height: 676px;
     list-style-type: none;
     background-color: #e9f0fd;
 }
-
 .page-background {
     position: relative;
     width: 1600px;
     height: 676px;
-    
-    
-    }
-
+}
 .product-list-item {
     display: block;
     width: 255px;
     height: 322px;
     float: left;
     list-style-type: none;
-    
     }
 
-    .product-list-item:not(:last-child) {
-        margin-right: 30px;
-    }
-  
+.product-list-item:not(:last-child) {
+    margin-right: 30px;
+}
 
 .item-button {
-    width: 200px;
+    width: 255px;
     height: 40px;
     text-transform: uppercase;
     color: white;
-    background-color: rgb(50, 50, 50,);
     border: none;
-}
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+ 
+    }
+    
 .name-span {
     width: 200px;
     height: 40px;
+    display: block;
+    float: left;
     font-size: 18px;
+    background-color: #323232;
+    padding-top: 8px;
+    padding-left: 12px;
+    text-align: left;
+    
+
 }
 .name-money {
+    display: block;
+    float: right;
+    text-align: right;
     width: 55px;
     height: 40px;
     background-color: rgba(50, 50, 50, 0.4);
     font-size: 18px;
+    padding-top: 8px;
+    padding-left: 12px;
+    }
+    .product-list-item:hover .item-button {
+        background-color: #1abc9c;    
+    }
+
+.footer {
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 32px;
+    background-color: #323232;
+    color: white;
+    text-transform: capitalize;
+}
+.footer2 {
+    text-align: center;
+    color: #46bfa9;
 }
