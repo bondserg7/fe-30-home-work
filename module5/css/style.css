@@ -157,20 +157,18 @@ color: #1abc9c;
     background-color: rgb(0, 0, 0);
     opacity: 0.549;
     position: absolute;
-    top: -50%;
-    
+    top: 0%;
     left: -50%;
     transform: translatex(50%);
-
       
-        
 }
 
 .box4 {
-/* float: left; */
+float: left;
 background-color: #323232;
 color: white;
 text-transform: uppercase;
+font-size: 14px;
 position: absolute;
 width: 165px;
 height: 50px;
@@ -181,23 +179,22 @@ border: none;
 }
 
 .box2 {
+    background-image: url(./img/icon2.png);
     background-color: #46bfa9;
     border: none;
+    background-repeat: no-repeat;
+   background-position: center;
 }
 
 .box4-span {
-    
+    background-image: url(./img/icon4.png);
+    text-align: center;
     font-size: 14px;
     font-family: 'open sans', sans-serif;
-    right: 0;
-    top: 50%;
-    transform: translatey(50%);
     width: 116px;
-    height: 50px;
-    /* float: right; */
-    
-    
-    }
+    background-repeat: no-repeat;
+   background-position: center;
+}
 
 .box {
     width: 167px;
@@ -208,9 +205,6 @@ border: none;
     border: white;
 }
 
-
-
-
 .product-list-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -219,7 +213,7 @@ border: none;
     background-color: rgb(26, 188, 156);
     }
 .item-button {
-    
+    position: absolute;
     width: 255px;
     height: 40px;
     text-transform: uppercase;
@@ -228,7 +222,9 @@ border: none;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: bold;
-    background-color: rgba(50, 50, 50,);
+    background-color: rgb(50, 50, 50,);
+    bottom: 0px;
+    left: 0%;
     }
     
 .name-span {
@@ -241,21 +237,22 @@ border: none;
     padding-top: 8px;
     padding-left: 12px;
     text-align: left;
-    background-color: rgb(50, 50, 50);
     }
 .name-money {
-    display: block;
-    float: right;
-    text-align: right;
     width: 55px;
     height: 40px;
-    background-color: rgba(50, 50, 50, 0.4);
     font-size: 18px;
     padding-top: 8px;
     padding-left: 12px;
+    text-align: center;
+    float: right;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: linear-gradient(#ffffff70, #ffffff70);
     }
-    
-
 .footer {
     text-align: center;
     padding-top: 38px;
