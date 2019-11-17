@@ -165,14 +165,18 @@ color: #1abc9c;
         font-family: 'Open Sans', sans-serif;
         color: #555252;
         font-weight: bold;
-        /* margin-top: 15px; */
+        
     }
-    .line-fotter {
+    
+    .news-list-text::after {
+        display: block;
+        content: "";
         width: 136px;
         height: 3px;
-        background-color: #4ec6ab;
+        background-color:  #4ec6ab;
         margin-top: 15px;
-    }
+        }
+
     .news-list-position {
         font-size: 14px;
         color: #555252;
