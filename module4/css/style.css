@@ -178,8 +178,8 @@ color: #1abc9c;
         color: #555252;
         font-family: 'Open Sans',  sans-serif;
         margin-top: 30px;
-        margin-right: 15px;
-    }
+        width: 350px;
+       }
     .news-button {
         width: 150px;
         height: 60px;

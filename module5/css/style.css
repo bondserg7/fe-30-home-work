@@ -139,18 +139,87 @@ color: #1abc9c;
     height: 676px;
 }
 .product-list-item {
+    position: relative;
     display: block;
     width: 255px;
     height: 322px;
     float: left;
     list-style-type: none;
+    background-image: url(../img/fon\ girl.png);
+    
     }
+.overlay {
+    width: 100%; 
+    height: 283px;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.549;
+    position: absolute;
+    top: -50%;
+    
+    left: -50%;
+    transform: translatex(50%);
+
+      
+        
+}
+
+.box4 {
+/* float: left; */
+background-color: #323232;
+color: white;
+text-transform: uppercase;
+position: absolute;
+width: 165px;
+height: 50px;
+top: 54%;
+left: 50%;
+transform: translate(-50%, -50%);
+border: none;
+}
+
+.box2 {
+    background-color: #46bfa9;
+    border: none;
+}
+
+.box4-span {
+    
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+    right: 0;
+    top: 50%;
+    transform: translatey(50%);
+    width: 116px;
+    height: 50px;
+    /* float: right; */
+    
+    
+    }
+
+.box {
+    width: 167px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: white;
+}
+
+
+
 
 .product-list-item:not(:last-child) {
     margin-right: 30px;
 }
 
+.product-list-item:hover .item-button {
+    background-color: rgb(26, 188, 156);
+    }
 .item-button {
+    
     width: 255px;
     height: 40px;
     text-transform: uppercase;
@@ -159,7 +228,7 @@ color: #1abc9c;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: bold;
- 
+    background-color: rgba(50, 50, 50,);
     }
     
 .name-span {
@@ -172,9 +241,8 @@ color: #1abc9c;
     padding-top: 8px;
     padding-left: 12px;
     text-align: left;
-    
-
-}
+    background-color: rgb(50, 50, 50);
+    }
 .name-money {
     display: block;
     float: right;
@@ -186,9 +254,7 @@ color: #1abc9c;
     padding-top: 8px;
     padding-left: 12px;
     }
-    .product-list-item:hover .item-button {
-        background-color: #1abc9c;    
-    }
+    
 
 .footer {
     text-align: center;
