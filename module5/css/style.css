@@ -3,36 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ul,
+ol {
+    list-style: none;
+}
 .body {
     font-family: 'Roboto', sans-serif, 'Open Sans';
     font-size: 14px;
     background-color: #555252;
     } 
-
 .clearfix::after {
 content: "";
 display: table;
 clear: both;
 }
-
 .container {
     width: 1110px;
     margin-left: auto;
     margin-right: auto;
-    
-    }
-
+}
 .header {
 padding-top: 43px;
 padding-bottom: 38px;
 }
-
 .logotype {
 display: inline-block;
 margin-left: 245px;
 }
-
 .site-navigation {
 width: 590px;
 float: right;
@@ -43,7 +40,6 @@ list-style: none;
 margin-top: 4px;
 padding-bottom: 40px;
 }
- 
 .site-navigation li {
 float: left;
 margin-left: 35px;
@@ -85,7 +81,6 @@ color: #1abc9c;
     left: 50%;
     transform: translateX(-50%);
 }
-
 .aroow {
     position: relative;
     width: 1100px;
@@ -93,7 +88,6 @@ color: #1abc9c;
     left: 50%;
     top: 225px;
 }
-
 .arrow-left {
     width: 104px;
     height: 104px;
@@ -101,7 +95,6 @@ color: #1abc9c;
     border: none;
     float: left;
 }
-
 .arrow-right {
     width: 104px;
     height: 104px;
@@ -109,7 +102,6 @@ color: #1abc9c;
     border: none;
     float: right;
 }
-
 .new-collection {
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
@@ -128,6 +120,9 @@ color: #1abc9c;
     margin-top: 32px;
     margin-bottom: 80px;
 }
+
+/*paris tours*/
+
 .new {
     min-height: 676px;
     list-style-type: none;
@@ -146,72 +141,100 @@ color: #1abc9c;
     float: left;
     list-style-type: none;
     background-image: url(../img/fon\ girl.png);
-    
-    }
-.overlay {
+   }
+
+  .overlay {
     width: 100%; 
     height: 283px;
     border-width: 10px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.549;
+    background-color: rgba(0, 0, 0, .54);
     position: absolute;
     top: 0%;
     left: -50%;
     transform: translatex(50%);
-      
 }
-
+.box-list__item {
+    float: left;
+}
 .box4 {
 float: left;
 background-color: #323232;
 color: white;
 text-transform: uppercase;
 font-size: 14px;
-position: absolute;
-width: 165px;
-height: 50px;
-top: 54%;
-left: 50%;
-transform: translate(-50%, -50%);
-border: none;
+width: 164px;
+height: 48px;
+border: 1px;
+border-color: #fff;
+border-style: solid;
 }
-
-.box2 {
-    background-image: url(./img/icon2.png);
-    background-color: #46bfa9;
+.box-btn-1 {
+    background-image: url(../img/icon1.png);
     border: none;
-    background-repeat: no-repeat;
-   background-position: center;
 }
-
 .box4-span {
-    background-image: url(./img/icon4.png);
+    background-image: url(../img/icon4.png);
     text-align: center;
     font-size: 14px;
     font-family: 'open sans', sans-serif;
     width: 116px;
     background-repeat: no-repeat;
-   background-position: center;
+    background-position: left;
+    padding: 30px;
+    border-width: 1px;
+   }
+.box-btn-box1 {
+    width: 48px;
+    height: 48px;
+    border-width: 1px;
+    border-color: #fff;
+    border-style: solid;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 9px;
+    background-image: url(../img/icon1.png);
 }
 
+.box-btn-box2 {
+    width: 48px;
+    height: 48px;
+    border-width: 1px;
+    border-color: #fff;
+    border-style: solid;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(26, 188, 156);
+    margin-right: 9px;
+    background-image: url(../img/icon2.png);
+}
+.box-btn-box3 {
+    width: 48px;
+    height: 48px;
+    border-width: 1px;
+    border-color: #fff;
+    border-style: solid;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/icon3.png);
+}
 .box {
     width: 167px;
     position: absolute;
-    top: 37%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: white;
+    border-color: #fff;
 }
 
 .product-list-item:not(:last-child) {
     margin-right: 30px;
 }
 
-.product-list-item:hover .item-button {
-    background-color: rgb(26, 188, 156);
-    }
 .item-button {
     position: absolute;
     width: 255px;
@@ -222,11 +245,12 @@ border: none;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: bold;
-    background-color: rgb(50, 50, 50,);
+    background-color: #8c8c8c;
+    text-align: center;
     bottom: 0px;
     left: 0%;
     }
-    
+
 .name-span {
     width: 200px;
     height: 40px;
@@ -242,7 +266,7 @@ border: none;
     width: 55px;
     height: 40px;
     font-size: 18px;
-    padding-top: 8px;
+    padding-top: 5px;
     padding-left: 12px;
     text-align: center;
     float: right;
@@ -253,6 +277,11 @@ border: none;
     color: #ffffff;
     background: linear-gradient(#ffffff70, #ffffff70);
     }
+/* .name-money:nth-child(3) {
+    background: linear-gradient(#ffffff70, #ffffff70);
+    text-align: center;
+    padding-top: 5px;
+     } */
 .footer {
     text-align: center;
     padding-top: 38px;
