@@ -38,6 +38,7 @@ left: 10%;
 }
 p:first-letter {
     color: #1abc9c;
+    font-weight: bold;
 }
 
 .site-navigation {
@@ -262,7 +263,7 @@ background-position: left 10px center;
     left: 0%;
     background-color: rgb(50, 50, 50);
     }
-    .product-list-item .item-button:hover {
+    .product-list-item:hover .item-button {
         background-color: #1abc9c;
     }
     .box-list__item:hover {
