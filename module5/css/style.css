@@ -36,7 +36,7 @@ color: #555252;
 transform: translate(50%, -50%);
 left: 10%;
 }
-p:first-letter {
+.logotype:first-letter {
     color: #1abc9c;
     font-weight: bold;
 }
