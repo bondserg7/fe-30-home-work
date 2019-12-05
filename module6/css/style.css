@@ -56,6 +56,7 @@ ul {
     color: #f38181;
     border-bottom: 3px solid #f38181;
     transition: .2s linear;
+    padding-bottom: 12px;
 }
 .title-span {
     display: flex;
@@ -76,7 +77,6 @@ ul {
     font-size: 30px;
     text-transform: uppercase;
     color: #333333;
-
 }
 
 .title-h1::after {
@@ -95,11 +95,12 @@ ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: 0 auto;
+    
 }
 
 .services-list-item {
-    display: flex;
-    justify-content: space-between;
+    padding-bottom: 12px;
     background-repeat: no-repeat;
     width: 300px;
     flex-wrap: wrap;
@@ -269,10 +270,10 @@ ul {
     font-size: 14px;
     justify-content: space-between;
     padding-top: 24px;
-    text-align: center;
     align-items: center;
     color: #333333;
     padding-bottom: 12px;
+    padding-left: 30px;
 }
 .footer-span2 {
     color: #f6a1a1;
