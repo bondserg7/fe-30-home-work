@@ -76,7 +76,8 @@ li {
     justify-content: space-between;
 }
 .nav-list-link {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     text-transform: uppercase;
@@ -105,10 +106,10 @@ li {
     margin-bottom: 4.8125rem;
 }
 .serv-list {
-    width: px;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    width: 68.75rem;
 }
 .serv-h3 {
     text-transform: capitalize;
@@ -124,10 +125,6 @@ li {
     font-style: normal;
     font-weight: 400;
     color: #777777;
-}
-.serv-list {
-    display: flex;
-    width: 68.75rem;
 }
 .serv-list-item {
 width: 18.75rem;
@@ -240,8 +237,20 @@ padding-bottom: 7.5rem;
     font-size: 1.125rem;
     font-weight: bold;
     margin: 0 auto;
+    border: none;
+    cursor: pointer;
     }
-    .form {
+   .form {
         padding-bottom: 7.1875rem;
     }
- 
+    .form-imput:focus {
+        outline: none;
+    }
+    .form-imput:required:focus:valid {
+        border: 2px solid green;
+    }
+    .form-imput:required:focus:invalid {
+        border: 2px solid red;
+    }
+     
+     
