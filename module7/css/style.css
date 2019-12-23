@@ -79,10 +79,12 @@ li {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     color: #282828;
     text-decoration: none;
+    line-height: 2.929;
+            
 }
 .nav-list-link:hover {
     color: #fed136;
