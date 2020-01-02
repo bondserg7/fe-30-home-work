@@ -112,6 +112,7 @@ li {
 .text {
     color: #ffffff;
     text-align: center;
+    margin: 0 auto; 
 }
 .h2 {
     font-family: 'Montserrat', sans-serif;
@@ -129,7 +130,7 @@ li {
     font-size: 18px;
     padding-bottom: 30px;
     text-align: center;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 .h4 {
     border-radius: 20px;
@@ -143,7 +144,6 @@ li {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
 }
 .Meet {
     width: 258px;
@@ -253,6 +253,7 @@ position: relative;
         flex-direction: row-reverse;
         margin-bottom: 45px;
     }
+
     .h2 {
         width: 480px;
         margin: 0 auto;
@@ -310,12 +311,9 @@ position: relative;
 }
 @media (min-width: 1200px) {
     .container {
-        min-width: 1200px;
+        min-width: 100%;
     }
-    .container {
-        width: 940px;
-    }
-    .header {
+  .header {
         background-image: url(../img/1200.png);
         width: 1440px;
         height: 700px;
@@ -328,4 +326,33 @@ position: relative;
         justify-content: space-between;
         flex-wrap: nowrap;
         }
+
+     .h2 {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 52px;
+    padding-bottom: 40px;
+}
+.h3 {
+    width: 410px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+.h4 {
+    font-size: 14px;
+    width: 226px;
+    height: 40px;
+    margin-bottom: 235px;
+    background-color: rgb(255, 78, 80);
+    border-radius: 20px;
+    text-align: center;
+}
+.meet {
+    width: 402px;
+    padding-top: 70px;
+    padding-bottom: 35px;
+    }
 }

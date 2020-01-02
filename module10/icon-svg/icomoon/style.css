@@ -14,3 +14,7 @@ Single-colored icons can be modified like so:
   color: red;
 }
 ========================================== */
+
+.icon-facebook {
+  width: 0.5em;
+}

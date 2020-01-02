@@ -55,6 +55,17 @@ ul {
     transition: color 0.2s linear;
     
 }
+.nav-list-item svg {
+display: flex;
+width: 32px;
+height: 32px;
+fill: #ffffff;
+
+}
+.nav-list-item:hover svg {
+    fill: #fce38a;
+    
+}
 .nav-list-link:hover,
 .nav-list-link:focus {
     color: #fce38a;
@@ -285,32 +296,23 @@ ul {
     text-align: center;
     display: flex;
     transform: translatex(-35%);
+    
 
 }
-.svg-facebook {
-    width: 16px;
-    height: 32px;
-    display: flex;
-    transform: translateY(-130%); 
-}
-.svg-twitter {
+.overlay-list svg {
+    fill: black;
     width: 32px;
     height: 32px;
     display: flex;
-    transform: translateY(-130%); 
-   
-     
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    text-align: center;
+    transform: translatex(-35%);
+    position: absolute;
 }
-.svg-pinterest {
-    display: flex;
-    transform: translateX(-25%);
-    transform: translateY(-130%); 
-}
-.svg-instagram {
-    display: flex;
-    transform: translateY(-130%); 
-}
-.overlay-list-item:first-child .overlay-list-link {
+
+/* .overlay-list-item:first-child .overlay-list-link {
     background-image: url(../icon/facebook.png);
 }
 .overlay-list-item:nth-child(2) .overlay-list-link {
@@ -321,10 +323,10 @@ ul {
 }
 .overlay-list-item:last-child .overlay-list-link {
     background-image: url(../icon/instagram.png);
-}
-.overlay-list-link:hover {
+} */
+/* .overlay-list-link:hover {
     background-color: rgba(149, 225, 211, 0.8);
-    transition: .2s linear;
+    transition: .2s linear; */
 }
 .footer-btn {
     width: 1225px;
