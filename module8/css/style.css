@@ -58,16 +58,15 @@ li {
     min-width: 320px;
     margin: 0 auto;  
 }
+
 .header {
     background-image: url(../img/1.png);
     min-width: 320px;
-    max-width: 767px;
     height: 540px;
     background-position: center;  
     background-size: cover;
     margin: 0 auto; 
 }
- 
 .nav-list {
     display: flex;
     width: 134px;
@@ -112,7 +111,7 @@ li {
 .text {
     color: #ffffff;
     text-align: center;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 .h2 {
     font-family: 'Montserrat', sans-serif;
@@ -121,6 +120,7 @@ li {
     font-size: 30px;
     text-transform: uppercase;
     line-height: 1.2;
+    /* margin: 0 auto; */
 }
 .h3 {
     width: 220px;
@@ -132,7 +132,7 @@ li {
     text-align: center;
     margin: 0 auto;
 }
-.h4 {
+.button {
     border-radius: 20px;
     background-color: rgb(255, 78, 80);
     width: 280px;
@@ -144,6 +144,9 @@ li {
     align-items: center;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    border: none;
+    color: #ffffff;
 }
 .Meet {
     width: 258px;
@@ -161,6 +164,7 @@ li {
     width: 120px;
     margin: 0 auto;
     margin-bottom: 40px;
+    padding: 0;
 }
 .partner-item {
     text-align: center;
@@ -233,21 +237,20 @@ position: relative;
     display: block;
     margin: 0 auto;
 }
+
+  
 @media (min-width: 768px) {
     .container {
         min-width: 768px;
-        max-width: 1199px;
     }
     .header {
         background-image: url(../img/768.png);
-        min-width: 768px;
-        height: 700px;   
-        background-size: cover;
-        background-position: center;
+        min-width: 100%;
+        height: 700px;
+        
     }
    .nav-box {
         padding-top: 15px;
-        width: 670px;
         display: flex;
         justify-content: space-around;
         flex-direction: row-reverse;
@@ -267,13 +270,14 @@ position: relative;
         font-style: normal;
         font-weight: 300;
     }
-    .h4 {
+    .button {
         width: 226px;
         height: 40px;
         margin-bottom: 34px;
         background-color: rgb(255, 78, 80);
         border-radius: 20px;
         margin: 0 auto;
+        
     }
     
     .meet {
@@ -315,16 +319,21 @@ position: relative;
     }
   .header {
         background-image: url(../img/1200.png);
-        width: 1440px;
-        height: 700px;
-        background-size: cover;
-        background-position: center;
+           
     }
     .partner {
         width: 920px;
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap;
+        }
+        .nav-box {
+       
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-around;
+           
+            
         }
 
      .h2 {
@@ -341,7 +350,7 @@ position: relative;
     font-weight: 300;
     padding-bottom: 35px;
 }
-.h4 {
+.button {
     font-size: 14px;
     width: 226px;
     height: 40px;
@@ -349,6 +358,7 @@ position: relative;
     background-color: rgb(255, 78, 80);
     border-radius: 20px;
     text-align: center;
+    margin: 0 auto;
 }
 .meet {
     width: 402px;
