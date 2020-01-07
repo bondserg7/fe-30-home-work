@@ -323,11 +323,11 @@ fill: #ffffff;
 }
 .overlay-list-item:last-child .overlay-list-link {
     background-image: url(../icon/instagram.png);
-} */
-/* .overlay-list-link:hover {
-    background-color: rgba(149, 225, 211, 0.8);
-    transition: .2s linear; */
 }
+.overlay-list-link:hover {
+    background-color: rgba(149, 225, 211, 0.8);
+    transition: .2s linear;
+} */
 .footer-btn {
     width: 1225px;
     display: flex;
