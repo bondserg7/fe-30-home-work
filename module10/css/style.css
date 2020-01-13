@@ -54,25 +54,25 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     transition: color 0.2s linear;
-    
+    border: 3px solid transparent;
+    padding-bottom: 12px;
 }
+
 .nav-list-item svg {
 display: block;
 width: 18px;
 height: 15px;
 fill: #ffffff;
-
 }
+
 .nav-list-item:hover svg {
     fill: #fce38a;
-    
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
     color: #fce38a;
     border-bottom: 3px solid #fce38a;
     transition: .2s linear;
-    padding-bottom: 12px;
 }
 .header-text {
     font-family: 'Kaushan Script', cursive;
@@ -306,8 +306,8 @@ margin: 0 auto;
     height: 32px;
     margin-top: 13px;
 }
-.overlay-list-link svg:hover,
-.overlay-list-link svg:focus {
+.overlay-list-item:hover svg,
+.overlay-list-item:focus svg {
     fill: #ffffff;    
 }
 .overlay-list-link:hover {
