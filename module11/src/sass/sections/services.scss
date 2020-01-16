@@ -36,33 +36,35 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 0 auto;
-
-        &:list-item {
-        background-repeat: no-repeat;
-        width: 300px;
-        flex-wrap: wrap;
-        padding-left: 72px;
-        padding-bottom: 12px;
 }
-        &:first-child {
-        background-image: url(../images/services/photography.png);
-        }
-        &:nth-child(2) {
-        background-image: url(../images/services/webdesign.png);
-        }
-        &:nth-child(3) {
-        background-image: url(../images/services/creativity.png);
-        }
-        &:nth-child(4) {
-        background-image: url(../images/services/seo.png);
-    }
-        &:nth-child(5) {
-        background-image: url(../images/services/css-html.png);
-        }
-        &:last-child {
-        background-image: url(../images/services/digital.png);
-        }
 
+.services-list-item {
+    background-repeat: no-repeat;
+    width: 300px;
+    flex-wrap: wrap;
+    padding-left: 72px;
+    padding-bottom: 12px;
+}
+
+    .services-list-item:first-child {
+    background-image: url(../images/services/photography.png);
+    }
+    .services-list-item:nth-child(2) {
+    background-image: url(../images/services/webdesign.png);
+    }
+    .services-list-item:nth-child(3) {
+    background-image: url(../images/services/creativity.png);
+    }
+    .services-list-item:nth-child(4) {
+    background-image: url(../images/services/seo.png);
+    }
+    .services-list-item:nth-child(5) {
+    background-image: url(../images/services/css-html.png);
+    }
+    .services-list-item:last-child {
+    background-image: url(../images/services/digital.png);
+    }
+    
 .name-services {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
