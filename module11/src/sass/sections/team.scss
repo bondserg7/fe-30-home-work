@@ -1,0 +1,117 @@
+.span-teem {
+    display: flex;
+    margin-top: 93px;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    text-transform: capitalize;
+    color: #333333;
+}
+.h2-teem {
+    margin-top: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.h2-teem::after {
+    width: 60px;
+    height: 3px;
+    content: "";
+    background-color: #f38181;
+    display: block;
+    margin: 0 auto;
+    margin-top: 42px;
+    margin-bottom: 64px;
+}
+.text {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-bottom: 93px;
+    color: #999999;
+}
+.card-img {
+    width: 1200px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.card-img-item {
+    width: 381px;
+    position: relative;
+    padding-bottom: 83px;
+}
+.name-card {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    margin-top: 31px;
+    color: #333333;
+}
+.prof-card {
+    display: flex;
+    font-size: 15px;
+    font-family: 'Roboto:300i', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #999999;
+}
+.overlay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 470px;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: .2s linear;
+    box-shadow: 10px 10px 0px #95e1d3;
+    background-image: linear-gradient(90deg, $start-gradient-color, $end-gradient-color);
+}
+.card-img-item .overlay:hover {
+    opacity: 1;
+    transition: .2s linear;
+}
+.overlay-list {
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+}
+.overlay-list-item:not(:last-child) {
+    margin-right: 1px;
+}
+.overlay-list-link {
+    top: 210px;
+    background-color: $start-gradient-color ;
+    width: 56px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    text-align: center;
+    display: flex;
+}
+.overlay-list-link svg {
+    fill: $end-gradient-color;
+    width: 32px;
+    height: 32px;
+    margin-top: 13px;
+}
+.overlay-list-item:hover svg,
+.overlay-list-item:focus svg {
+    fill: #ffffff;    
+}
+.overlay-list-link:hover {
+    background-color: $end-gradient-color;
+}

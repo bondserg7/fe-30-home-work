@@ -1,0 +1,52 @@
+.footer-btn {
+    width: 1225px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    justify-content: space-between;
+    padding-top: 24px;
+    align-items: center;
+    color: #333333;
+    padding-bottom: 12px;
+    padding-left: 30px;
+}
+.footer-span2 {
+    color: #f6a1a1;
+}
+.buttom__form {
+    display: flex;
+    width: 380px;
+    height: 40px;
+    color: #cccccc;
+}
+.buttom__form-input {
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 24px;
+    text-align: left;
+    color: #cccccc;
+}
+.buttom__form-input::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 24px;
+    text-align: left;
+    color: #cccccc;
+    transform: translateX(12px);
+}
+.buttom__btn {
+    background-color: rgb(149, 225, 211);
+    font-size: 14px;
+    font-family: 'Montserrat', serif;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}

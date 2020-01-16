@@ -1,0 +1,103 @@
+.title-span {
+    display: flex;
+    margin-top: 130px;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    font-style: cursive;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.title-h2 {
+    margin-top: 22px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.title-h2::after {
+    width: 60px;
+    height: 3px;
+    content: "";
+    background-color: #f38181;
+    display: block;
+    margin: 0 auto;
+    margin-top: 42px;
+    margin-bottom: 64px;
+}
+
+.services-list {
+    width: 1182px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+        &:list-item {
+        background-repeat: no-repeat;
+        width: 300px;
+        flex-wrap: wrap;
+        padding-left: 72px;
+        padding-bottom: 12px;
+}
+        &:first-child {
+        background-image: url(../images/services/photography.png);
+        }
+        &:nth-child(2) {
+        background-image: url(../images/services/webdesign.png);
+        }
+        &:nth-child(3) {
+        background-image: url(../images/services/creativity.png);
+        }
+        &:nth-child(4) {
+        background-image: url(../images/services/seo.png);
+    }
+        &:nth-child(5) {
+        background-image: url(../images/services/css-html.png);
+        }
+        &:last-child {
+        background-image: url(../images/services/digital.png);
+        }
+
+.name-services {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.span-services {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #999999;
+}
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+
+    .services-list-item:first-child {
+        background-image: url(../images/services/photography@2x.png);
+    }
+    
+    .services-list-item:nth-child(2) {
+        background-image: url(../images/services/webdesign@2x.png);
+    }
+    
+    .services-list-item:nth-child(3) {
+        background-image: url(../images/services/creativity@2x.png);
+    }
+    
+    .services-list-item:nth-child(4) {
+        background-image: url(../images/services/seo@2x.png);
+    }
+    
+    .services-list-item:nth-child(5) {
+        background-image: url(../images/services/css-html@2x.png);
+    }
+    
+    .services-list-item:last-child {
+        background-image: url(../images/services/digital@2x.png);
+    }
+}
